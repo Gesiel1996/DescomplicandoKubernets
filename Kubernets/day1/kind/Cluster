@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: giropos
+  name: giropos3
+spec:
+  containers:
+  - image: ngnix
+    name: giropos
+    ports:
+    - containerPort: 80
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+~                                                                                                                                               
+~                   
+
